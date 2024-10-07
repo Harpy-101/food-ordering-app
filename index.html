@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="work-space">
+      <header>
+        <div class="burger-background">
+          <div class="header-text">
+            <h1>Jimmy's Diner</h1>
+            <p>The best burgers and pizzas in town.</p>
+          </div>
+        </div>
+      </header>
+      
+      <main>
+        <div class="menue" id="menue-el">
+          <div><h2 data-category="brealfast">bf</h2></div>
+          <div class="item-container">
+              <img src="media/pancake-stack.jpg" alt="pancake-stack">
+              <div class="item-text">
+                <h2>Pancake Stack</h2>
+                <p>Fluffy pancakes served with syrup, butter, and a side of bacon or fruit.</p>
+                <h2>$7.99</h2>
+              </div>
+              <i class="fa-solid fa-plus" style="color: #74c074;"></i>
+          </div>
+        </div>
+        
+        <div class="cart" id="cart-el">
+          <div class="items"></div>
+          <div class="cart-total"></div>
+        </div>
+        <form action="" class="payment-form" id="payment-form">
+          <h2 class="payment-form-close-btn" data-closeform="false">X</h2>
+          <div class="payment-form-inner">
+            <h2>Enter card details</h2>
+            <input type="text" placeholder="Enter your name" required>
+            <input type="text" placeholder="Enter card number" required>
+            <input type="text" placeholder="Enter CCV" required>
+            <button type="submit">Pay</button>
+          </div>
+        </form>
+      </main>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
