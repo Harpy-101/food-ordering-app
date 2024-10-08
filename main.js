@@ -1,4 +1,4 @@
-import { menuItems } from "./data"
+import { menuItems } from "./data.js"
 
 const menueEl = document.getElementById(`menue-el`)
 const cartEl = document.getElementById(`cart-el`)
