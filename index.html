@@ -23,11 +23,7 @@
         <div class="menue" id="menue-el">
           <div><h2 data-category="brealfast">bf</h2></div>
           <div class="item-container">
-              <img src="media/pancake-stack.jpg" alt="pancake-stack">
               <div class="item-text">
-                <h2>Pancake Stack</h2>
-                <p>Fluffy pancakes served with syrup, butter, and a side of bacon or fruit.</p>
-                <h2>$7.99</h2>
               </div>
               <i class="fa-solid fa-plus" style="color: #74c074;"></i>
           </div>
@@ -41,10 +37,10 @@
           <h2 class="payment-form-close-btn" data-closeform="false">X</h2>
           <div class="payment-form-inner">
             <h2>Enter card details</h2>
-            <input type="text" placeholder="Enter your name" required>
+            <input type="text" placeholder="Enter your name" name="name" required>
             <input type="text" placeholder="Enter card number" required>
             <input type="text" placeholder="Enter CCV" required>
-            <button type="submit">Pay</button>
+            <button type="submit" data-submit="submitdd">Pay</button>
           </div>
         </form>
       </main>
