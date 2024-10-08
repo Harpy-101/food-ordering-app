@@ -72,6 +72,7 @@ header {
 .menue-categories {
   display: flex;
   justify-content: space-between;
+  border-bottom: 2px solid black;
 }
 
 .category {
@@ -134,17 +135,8 @@ button {
 }
 
 input, button {
-  /* width: 100%;
-  height: 20px;
-  margin: 20px 10px;
-  border: 1px solid black;
-  border-radius: 3px;
-  padding: 30px;
-  line-height: 23px;
-  box-sizing: border-box; */
-
-  width: 80%; /* Adjust the width as needed */
-  margin: 10px 0; /* Add margin to space out inputs and button */
+  width: 80%;
+  margin: 10px 0; 
   padding: 15px;
   box-sizing: border-box;
   line-height: 30px;
@@ -157,7 +149,11 @@ button {
   color: white;
   font-size: 16px;
   border-radius: 3px;
-  width: 80%;
+  width: 100%;
   text-align: center;
+}
+
+form button {
+  width: 80%;
 }
 
